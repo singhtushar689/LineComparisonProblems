@@ -15,7 +15,7 @@ namespace LineComparisonProblem
             _lengthY = lengthY;
             lenGthsX = lengthsX;
             this.lengthsY = lengthsY;
-        }
+        } 
         public double Calculate()
         {
             double length = Math.Sqrt(Math.Pow((lenGthsX - lengthX),2)+ (Math.Pow((lengthsY - _lengthY),2)));
